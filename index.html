@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>Basic Calculator</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+    <meta name="description" content="This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-regular.woff2" as="font" crossorigin type="font/woff2">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-500.woff2" as="font" crossorigin type="font/woff2">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-600.woff2" as="font" crossorigin type="font/woff2">
+    <link rel="preload" href="./assets/fonts/inter-v12-latin-800.woff2" as="font" crossorigin type="font/woff2">
+    <script type="text/javascript">
+        window._ = document.getElementById.bind(document);
+        window.$ = document.querySelector.bind(document);
+        window.$$ = document.querySelectorAll.bind(document);
+        window.defaultSystem = "imperial";
+        localStorage.setItem("theme", "light");
+    </script>
+    <link rel="stylesheet" href="./assets/css/main.min.css" />
+    <script src="./assets/js/all-calculators.js" defer></script>
+</head>
+<body style="background-color: transparent !important; min-height: 0 !important">
+
+<div style="width: 100%;">
+    <div style="width:350px;float:left;padding: 15px;">
+        <div class="calculator-settings">
+            <div class="calculator-setting" id="calculator_form">
+                <div class="calculator-content calculator-content--basic col">
+                	<input class="calculator-basic__input" id="input_field" value="0" type="text" 
+                    onkeydown="BasicCalculator.inputKeydown(event)">
+                	<div class="calculator-basic" onclick="BasicCalculator.buttonClick(event)">
+                		<div>
+                			<button class="gray-main text-xl" data-action="AC">AC</button>
+                			<button class="gray-main text-2xl" data-action="±">±</button>
+                			<button class="gray-main text-2xl" data-action="%">%</button>
+                			<button class="action text-2xl" data-action="/">÷</button>
+                		</div>
+                		<div>
+                			<button>7</button>
+                			<button>8</button>
+                			<button>9</button>
+                			<button class="action" data-action="*">×</button>
+                		</div>
+                		<div>
+                			<button>4</button>
+                			<button>5</button>
+                			<button>6</button>
+                			<button class="action" data-action="-">−</button>
+                		</div>
+                		<div>
+                			<button>1</button>
+                			<button>2</button>
+                			<button>3</button>
+                			<button class="action" data-action="+">+</button>
+                		</div>
+                		<div>
+                			<button class="long">0</button>
+                			<button>.</button>
+                			<button class="indigo" data-action="=">=</button>
+                		</div>
+                	</div>
+                </div>
+                <script type="text/javascript" src="false"></script>            </div>
+        </div>
+    </div>
+</div>
+
+<script async src="./assets/js/lib/math.min.js"></script>
+<script defer src="./assets/js/functions.js"></script>
+
+</body>
+</html>
