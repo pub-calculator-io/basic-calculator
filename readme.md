@@ -1,4 +1,4 @@
-=== Basic Calculator by Calculator.iO ===
+# Basic Calculator by Calculator.iO
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
@@ -9,11 +9,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.
 
-== Description ==
+## Description
 
 This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.
 
-__Shortcode__
+### Shortcode
 
 Use the Basic Calculator shortcode:
 
@@ -27,20 +27,20 @@ Libraries in use:
 5. https://air-datepicker.com/
 6. https://www.chartjs.org/
 
-== Installation ==
+## Installation
 
 1. Upload the /ci_basic_calculator/ folder to the /wp-content/plugins/ directory.
 2. Activate the [Basic Calculator](https://www.calculator.io/basic-calculator/ "Basic Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
-== Usage ==
+## Usage
 * Add the shortcode `[ci_basic_calculator]` to your page or post and configure default mortgage parameters.
 * If you are using widgets, just add the Basic Calculator to the sidebar through the `Appearance -> Widgets -> Basic Calculator` menu in WordPress.
 * Add the following code: `<?php display_ci_basic_calculator(); ?>` to your template where you would like the Basic Calculator to appear.
 
-== Screenshots ==
+## Screenshots
 1. The Basic Calculator Input Form.
 
-== Changelog ==
+## Changelog
 
-= 1.0.0 =
+### 1.0.0
 * Initial release
