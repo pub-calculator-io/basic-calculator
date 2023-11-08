@@ -11,8 +11,7 @@ This online calculator performs basic mathematical operations like addition, sub
 3. Activate the [Basic Calculator](https://www.calculator.io/basic-calculator/ "Basic Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_basic_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Basic Calculator to the sidebar through the `Appearance -> Widgets -> Basic Calculator` menu in WordPress.
+* Add the shortcode `[ci_basic_calculator]` to your page, post or sidebar.
 * Add the following code: `<?php display_ci_basic_calculator(); ?>` to your template where you would like the Basic Calculator to appear.
 
 ## Libraries in Use
