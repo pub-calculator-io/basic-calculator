@@ -9,40 +9,28 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.
 
-== Description ==
-
-This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.
-
 [https://www.calculator.io/basic-calculator/](https://www.calculator.io/basic-calculator/)
 
-__Basic Calculator Shortcode__
+== Usage ==
+
+Add the Basic Calculator shortcode to your page, post or sidebar:
 
 `[ci_basic_calculator]`
 
-== Installation ==
+Add the following code to your template where you would like the Basic Calculator to appear:
 
-1. Upload the /ci_basic_calculator/ folder to the /wp-content/plugins/ directory.
-2. Activate the [Basic Calculator](https://www.calculator.io/basic-calculator/ "Basic Calculator Homepage") plugin through the "Plugins" menu in WordPress.
-
-== Basic Calculator Usage ==
-
-* Add the shortcode `[ci_basic_calculator]` to your page, post or sidebar.
-* Add the following code: `<?php display_ci_basic_calculator(); ?>` to your template where you would like the Basic Calculator to appear.
+`<?php display_ci_basic_calculator(); ?>`
 
 == Screenshots ==
 
 1. The Basic Calculator Input Form.
 
-== Libraries used in Basic Calculator ==
+== Installation ==
 
-1. https://mathjs.org/
-2. https://katex.org/
-3. https://github.com/aFarkas/lazysizes
-4. https://github.com/RobinHerbots/Inputmask
-5. https://air-datepicker.com/
-6. https://www.chartjs.org/
+1. Upload the Basic Calculator /ci_basic_calculator/ folder to the /wp-content/plugins/ directory.
+2. Activate the Basic Calculator plugin through the "Plugins" menu in WordPress.
 
 == Changelog ==
 
 = 1.0.0 =
-* Initial release
+* Initial release of Basic Calculator
