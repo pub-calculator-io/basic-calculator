@@ -1,6 +1,6 @@
 === Basic Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: basic calculator, simple arithmetic tool, online math calculator, add subtract multiply divide, basic operations calculator, easy math calculations, free basic calculator, desktop calculator online, math homework helper, calculate sums online
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
