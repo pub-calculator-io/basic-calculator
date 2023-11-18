@@ -1,4 +1,4 @@
-# Basic Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Basic Calculator Widget for WordPress
 
 This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.
 
