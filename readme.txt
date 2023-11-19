@@ -1,4 +1,4 @@
-=== Basic Calculator ===
+=== Basic Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: basic calculator, simple arithmetic tool, online math calculator, add subtract multiply divide, basic operations calculator, easy math calculations, free basic calculator, desktop calculator online, math homework helper, calculate sums online
 Requires at least: 5.0
