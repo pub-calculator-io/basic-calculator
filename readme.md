@@ -6,7 +6,7 @@ This online calculator performs basic mathematical operations like addition, sub
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/basic-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /basic-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Basic Calculator](https://www.calculator.io/basic-calculator/ "Basic Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
