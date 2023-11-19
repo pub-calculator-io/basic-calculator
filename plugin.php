@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Basic Calculator by www.calculator.io
+Plugin Name: CI Basic calculator
 Plugin URI: https://www.calculator.io/basic-calculator/
 Description: This online calculator performs basic mathematical operations like addition, subtraction, division, and multiplication. You can use the calculator to find percentages and taxes.
 Version: 1.0.0
